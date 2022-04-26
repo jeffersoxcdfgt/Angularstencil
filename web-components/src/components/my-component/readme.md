@@ -12,7 +12,7 @@
 | `first`    | `first`    | The first name  | `string` | `undefined` |
 | `last`     | `last`     | The last name   | `string` | `undefined` |
 | `middle`   | `middle`   | The middle name | `string` | `undefined` |
-| `newparam` | `newparam` | The last name   | `string` | `undefined` |
+| `newparam` | `newparam` | The newparam    | `string` | `undefined` |
 
 
 ----------------------------------------------

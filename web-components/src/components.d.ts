@@ -20,7 +20,7 @@ export namespace Components {
          */
         "middle": string;
         /**
-          * The last name
+          * The newparam
          */
         "newparam": string;
     }
@@ -51,7 +51,7 @@ declare namespace LocalJSX {
          */
         "middle"?: string;
         /**
-          * The last name
+          * The newparam
          */
         "newparam"?: string;
     }

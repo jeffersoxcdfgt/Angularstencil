@@ -22,10 +22,6 @@ export class MyComponent {
    */
   @Prop() last: string;
 
-  /**
-   * The last name
-   */
-  @Prop() newparam: string;
 
   private getText(): string {
     return format(this.first, this.middle, this.last);
