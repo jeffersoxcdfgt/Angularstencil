@@ -12,13 +12,13 @@ export declare interface MyComponent extends Components.MyComponent {}
 
 @ProxyCmp({
   defineCustomElementFn: undefined,
-  inputs: ['first', 'last', 'middle', 'newparam']
+  inputs: ['first', 'last', 'middle']
 })
 @Component({
   selector: 'my-component',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: '<ng-content></ng-content>',
-  inputs: ['first', 'last', 'middle', 'newparam']
+  inputs: ['first', 'last', 'middle']
 })
 export class MyComponent {
   protected el: HTMLElement;

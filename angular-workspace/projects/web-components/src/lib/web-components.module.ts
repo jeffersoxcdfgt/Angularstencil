@@ -1,20 +1,21 @@
 import { NgModule } from '@angular/core';
 import { WebComponentsComponent } from './web-components.component';
-import { defineCustomElements} from  '@web-components/loader';
-import { MyComponent} from '../../../component-library/src/lib/stencil-generated/components'
+import { defineCustomElements } from '@web-components/loader';
+import { DIRECTIVES } from '../../../component-library/src/lib/stencil-generated/index';
 
 defineCustomElements(window);
+
 
 @NgModule({
   declarations: [
     WebComponentsComponent,
-    MyComponent
+    ...DIRECTIVES
   ],
   imports: [
   ],
   exports: [
     WebComponentsComponent,
-    MyComponent
+    ...DIRECTIVES
   ]
 })
 export class WebComponentsModule { }
